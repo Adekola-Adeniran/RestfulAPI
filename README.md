@@ -27,7 +27,7 @@ A simple REST API using Express.js with full CRUD functionality
 
 ### GET method (/) - Welcome message
 
-### GET method (/users) - Get all users
+### GET method (/items) - Get all users
 example: [
   {
   "firstName" : "John",
@@ -49,10 +49,10 @@ example: [
   "id" : "780c3211-231b-4ed6-80aa-9f10d2b7c2ff"
 }
 
-### POST (/users) - Create a new user
+### POST (/items) - Create a new user
 
-### PATCH (/users/:id) - update a user
+### PATCH (/items/:id) - update a user
 
-### DELETE (/users/:id) - delete a user 
+### DELETE (/items/:id) - delete a user 
 
 ## Use POSTMAN to test all endpoints

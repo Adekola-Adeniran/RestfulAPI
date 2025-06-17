@@ -1,4 +1,5 @@
 import express from "express";
+
 import {
   createItem,
   getItems,
@@ -6,6 +7,7 @@ import {
   deleteItem,
   updateItem,
 } from "../controllers/items.js";
+
 const router = express.Router();
 
 // all routes in here are starting with /users
