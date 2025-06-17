@@ -19,6 +19,6 @@ router.get("/:id", getItem);
 
 router.delete("/:id", deleteItem);
 
-router.patch("/:id", updateItem);
+router.put("/:id", updateItem);
 
 export default router;
