@@ -1,12 +1,17 @@
 # RESTful API
+<<<<<<< HEAD
 
 A simple REST API built with Express.js that allows you to perform full CRUD (Create, Read, Update, Delete) operations on an in-memory collection of items. The API includes input validation, clean separation of routes and controllers, and custom middleware for logging and error handling. Data is stored in memory and resets on server restart. You can test all endpoints using Postman or any other API client.
+=======
+A simple REST API using Express.js with full CRUD functionality
+>>>>>>> 8b7cf62572673eb0dc2a5420a035392fbe911d04
 
 ## Features
 * CRUD operations: Create, Read, Update, Delete
 * Validation for input data
 * Clean separation of routes and controllers
 
+<<<<<<< HEAD
 ## Project Structure
 
 ```
@@ -22,6 +27,8 @@ express.js
 README.md
 ```
 
+=======
+>>>>>>> 8b7cf62572673eb0dc2a5420a035392fbe911d04
 ## Installation
 1. Clone the repo:
    ```
@@ -56,6 +63,7 @@ README.md
 ## Request 
 POST /items body
 {
+<<<<<<< HEAD
    "id": (generated from uuid),
    "name":"Adekola",
    "description": "Adeniran"
@@ -75,6 +83,13 @@ POST /items body
 
 - `PORT`: Set the port for the server (default: 5000)
 
+=======
+   "firstName":"Adekola",
+   "lastName": "Adeniran",
+   "age": 26
+}
+
+>>>>>>> 8b7cf62572673eb0dc2a5420a035392fbe911d04
 ## Notes
 
 ### In memory data (resets on restart)
